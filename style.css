@@ -1,0 +1,37 @@
+.container {
+    display: block;
+    box-sizing: border-box ;
+    margin: 0px auto;
+  }
+  
+  #canvas {
+    width: 100%;
+    border: 1px solid black;
+    border-color:blue;
+    border-radius: 8px 8px 0px 0px;
+   }
+   #canvas, .controller{
+    border: 6px solid;
+  }
+  .controller {
+    margin-top: -50px;
+    text-align: center;
+    padding-bottom: 32px;
+    border-top: none;
+    border-radius: 0px 0px 8px 8px;
+    background-color: black;
+  }
+  
+  .controller button {
+    width: 100px;
+    height: 60px;
+    text-align: center;
+    border-radius: 8px;
+  }
+   /* .pad{
+       position:relative ;
+       text-align: center;
+       margin-left:45%;
+   } */
+  
+  
